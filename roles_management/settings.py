@@ -125,3 +125,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = 'role_list'
 LOGOUT_REDIRECT_URL = '/accounts/login/'  
+
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "roles-management-1.onrender.com",
+]
+
